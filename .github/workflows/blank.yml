@@ -1,17 +1,20 @@
-name: Update Days Since Registration
+name: CI
 
 on:
-  schedule:
-    - cron: "0 */10 * * *"
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  workflow_dispatch:
 
 jobs:
-  update_readme:
+  build:
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
 
-      - name: Update README
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Update Days Since Registration
         run: |
           DATE_INSCRIPTION="2018-02-13"
           DATE_ACTUELLE=$(date -u +"%Y-%m-%d")
@@ -21,11 +24,11 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --local user.email "votre-email@example.com"
-          git config --local user.name "votre-pseudo-github"
+          git config --local user.email "et.miracle@hotmail.fr"
+          git config --local user.name "declick"
           git add README.md
           git commit -m "Auto update days since registration"
           git remote set-url origin ${{ secrets.REPO_URL }}
           git push
-          env:
-           REPO_URL: ${{ secrets.ACTIONS_PAT }}@github.com/declick/declick.git
+        env:
+          REPO_URL: https://${{ secrets.ACTIONS_PAT }}@github.com/declick/declick.git
