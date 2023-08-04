@@ -26,6 +26,6 @@ jobs:
           git config --local user.email "et.miracle@hotmail.fr"
           git config --local user.name "declick"
           git add README.md
-          git commit -am "Auto update days since registration"
+          git commit -m "Auto update"
           git pull
-          git push
+          git push origin main
