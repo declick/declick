@@ -1,4 +1,4 @@
-name: Update Days Since Registration
+name: CI
 
 on:
   schedule:
