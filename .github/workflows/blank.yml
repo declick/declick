@@ -24,9 +24,6 @@ jobs:
         run: |
           git config --global user.email et.miracle@hotmail.fr
           git config --global user.name declick
-          git add .
+          git add -a
           git commit -m "README update Automation" -a
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.ACTIONS_PAT }}
+          git push origin/main
