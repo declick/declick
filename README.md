@@ -54,6 +54,6 @@ Others:<br>
 <!--START_SECTION:update:readme-->
 ### ✏️ Inscription
 
-Inscrit depuis : le 2018-02-13 soit 1998 jours
+Le projet a été créé le DATE_INSCRIPTION soit JOURS_ECOULES jours.
 <!--END_SECTION:update:readme-->
 
