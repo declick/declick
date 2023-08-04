@@ -21,10 +21,10 @@ jobs:
 
           git config --local user.email "et.miracle@hotmail.fr"
           git config --local user.name "declick"
-          git add README.md
+          git add .
           git commit -m "Auto update days since registration"
-          git pull origin main  # Ajouter cette étape pour récupérer les dernières modifications du référentiel distant
-          git push origin HEAD:main
+          git pull
+          git push
 
       - name: Run a one-line script
         run: echo Hello, world!
