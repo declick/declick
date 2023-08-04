@@ -23,6 +23,7 @@ jobs:
           git config --local user.name "declick"
           git add README.md
           git commit -m "Auto update days since registration"
+          git pull origin main  # Ajouter cette étape pour récupérer les dernières modifications du référentiel distant
           git push origin HEAD:main
 
       - name: Run a one-line script
