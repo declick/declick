@@ -26,4 +26,7 @@ jobs:
           git config --global user.name "declick"
           git add -A
           git commit -m "readme"
+          git remote set-url origin ${{ secrets.REPO_URL }}
           git push
+          env:
+            REPO_URL: ${{ secrets.ACTIONS_PAT }}@github.com/declick/declick.git
