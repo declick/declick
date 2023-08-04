@@ -1,0 +1,31 @@
+name: Update Days Since Registration
+
+on:
+  schedule:
+    - cron: "0 */10 * * *"
+
+jobs:
+  update_readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Update README
+        run: |
+          DATE_INSCRIPTION="2018-02-13"
+          DATE_ACTUELLE=$(date -u +"%Y-%m-%d")
+          JOURS_ECOULES=$(( ( $(date -ud $DATE_ACTUELLE +'%s') - $(date -ud $DATE_INSCRIPTION +'%s') )/60/60/24 ))
+
+          sed -i "s/Inscrit depuis : le .* jours/Inscrit depuis : le $DATE_INSCRIPTION soit $JOURS_ECOULES jours/" README.md
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "votre-email@example.com"
+          git config --local user.name "votre-pseudo-github"
+          git add README.md
+          git commit -m "Auto update days since registration"
+          git remote set-url origin ${{ secrets.REPO_URL }}
+          git push
+          env:
+           REPO_URL: ${{ secrets.ACTIONS_PAT }}@github.com/declick/declick.git
