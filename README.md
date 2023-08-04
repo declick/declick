@@ -51,9 +51,7 @@ Others:<br>
 ![](https://github-readme-streak-stats.herokuapp.com/?user=declick&theme=dark&hide_border=true)
 <br/>
 
-<!--START_SECTION:update:readme-->
 ### ✏️ Inscription
 
-Le projet a été créé le DATE_INSCRIPTION soit JOURS_ECOULES jours.
-<!--END_SECTION:update:readme-->
+Le projet a été créé le 2018-02-13 soit $JOURS_ECOULES jours.
 
