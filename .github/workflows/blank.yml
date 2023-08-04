@@ -1,20 +1,17 @@
-name: CI
+name: Update Days Since Registration
 
 on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-  workflow_dispatch:
+  schedule:
+    - cron: "0 */10 * * *"
 
 jobs:
-  build:
+  update_readme:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v2
 
-      - name: Update Days Since Registration
+      - name: Update README
         run: |
           DATE_INSCRIPTION="2018-02-13"
           DATE_ACTUELLE=$(date -u +"%Y-%m-%d")
@@ -22,11 +19,8 @@ jobs:
 
           sed -i "s/Inscrit depuis : le .* jours/Inscrit depuis : le $DATE_INSCRIPTION soit $JOURS_ECOULES jours/" README.md
 
-      - name: Commit and push changes
-        run: |
+          git config --local user.email "et.miracle@hotmail.fr"
+          git config --local user.name "declick"
           git add README.md
-          git push -u origin main
           git commit -m "Auto update days since registration"
-          git branch -M main
-          git push
-       
+          git push origin HEAD:main
