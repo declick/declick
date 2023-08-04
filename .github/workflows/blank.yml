@@ -1,4 +1,4 @@
-name: CI
+name: Update Days Since Registration
 
 on:
   schedule:
@@ -10,6 +10,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
+        with:
+          node-version: '16'
 
       - name: Update Days Since Registration
         run: |
@@ -19,8 +21,8 @@ jobs:
   
           sed -i "s/Inscrit depuis : le .* jours/Inscrit depuis : le $DATE_INSCRIPTION soit $JOURS_ECOULES jours/" README.md
   
-          git config --local user.email "et.miracle@hotmail.fr"
-          git config --local user.name "declick"
+          git config --local user.email "votre-email@example.com"
+          git config --local user.name "votre-pseudo-github"
           git add README.md
           git commit -m "Auto update days since registration"
           git remote set-url origin ${{ secrets.REPO_URL }}
