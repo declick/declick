@@ -1,4 +1,4 @@
-name: Update Days Since Registration
+name: CI
 
 on:
   schedule:
@@ -21,7 +21,9 @@ jobs:
   
           git config --local user.email "et.miracle@hotmail.fr"
           git config --local user.name "declick"
-          git add .
+          git add README.md
           git commit -m "Auto update days since registration"
-          git pull origin main --rebase  # Utilisation du mode rebase
-          git push --force
+          git remote set-url origin ${{ secrets.REPO_URL }}
+          git push
+        env:
+          REPO_URL: https://${{ secrets.ACTIONS_PAT }}@github.com/declick/declick.git
