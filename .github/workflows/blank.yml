@@ -25,5 +25,8 @@ jobs:
           git config --local user.name "declick"
           git add README.md
           git commit -m "Auto update days since registration"
-          git pull
+          git branch -M main
+          git remote add origin https://github.com/declick/declick.git
           git push
+
+
