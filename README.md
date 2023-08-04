@@ -54,6 +54,6 @@ Others:<br>
 <!--START_SECTION:update:readme-->
 ### ✏️ Inscription
 
-Inscrit depuis : le February 13, 2018 soit 1998 jours
+Inscrit depuis : le 2018-02-13 soit 1998 jours
 <!--END_SECTION:update:readme-->
 
