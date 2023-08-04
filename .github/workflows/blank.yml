@@ -24,14 +24,9 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git config --local user.email "et.miracle@hotmail.fr"
-          git config --local user.name "declick"
           git add README.md
           git push -u origin main
           git commit -m "Auto update days since registration"
-          git remote set-url origin ${{ secrets.REPO_URL }}
           git branch -M main
-          git remote add origin https://github.com/declick/declick.git
           git push
-        env:
-          REPO_URL: https://${{ secrets.ACTIONS_PAT }}@github.com/declick/declick.git
+       
