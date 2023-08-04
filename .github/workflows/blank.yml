@@ -5,14 +5,14 @@ on:
     - cron: "*/30 * * * *"
 
 jobs:
-  build:
+  update-readme:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
 
-      - name: Update Days Since Registration
+      - name: Update README
         run: |
           DATE_INSCRIPTION="2018-02-13"
           DATE_ACTUELLE=$(date -u +"%Y-%m-%d")
@@ -20,13 +20,10 @@ jobs:
   
           sed -i "s/Inscrit depuis : le .* jours/Inscrit depuis : le $DATE_INSCRIPTION soit $JOURS_ECOULES jours/" README.md
 
-      - name: Commit and push
-        run: |-
-          git config --global user.email "et.miracle@hotmail.fr"
-          git config --global user.name "declick"
-          git add -A
-          git commit -m "readme"
-          git remote set-url origin ${{ secrets.REPO_URL }}
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "et.miracle@hotmail.fr"
+          git config --local user.name "declick"
+          git add README.md
+          git commit -m "Update README" || echo "No changes to commit"
           git push
-          env:
-            REPO_URL: ${{ secrets.ACTIONS_PAT }}@github.com/declick/declick.git
