@@ -26,6 +26,7 @@ jobs:
           git add README.md
           git commit -m "Auto update days since registration"
           git remote set-url origin ${{ secrets.REPO_URL }}
+          git pull
           git push
         env:
           REPO_URL: https://${{ secrets.ACTIONS_PAT }}@github.com/declick/declick.git
