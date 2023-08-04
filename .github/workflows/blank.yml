@@ -5,13 +5,13 @@ on:
     - cron: "0 */10 * * *"
 
 jobs:
-  update_readme:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
 
-      - name: Update README
+      - name: Update Days Since Registration
         run: |
           DATE_INSCRIPTION="2018-02-13"
           DATE_ACTUELLE=$(date -u +"%Y-%m-%d")
@@ -24,3 +24,11 @@ jobs:
           git add README.md
           git commit -m "Auto update days since registration"
           git push origin HEAD:main
+
+      - name: Run a one-line script
+        run: echo Hello, world!
+
+      - name: Run a multi-line script
+        run: |
+          echo Add other actions to build,
+          echo test, and deploy your project.
