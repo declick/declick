@@ -26,7 +26,7 @@ jobs:
           git add README.md
           git commit -m "Auto update days since registration"
           git branch -M main
-          git remote add origin https://github.com/declick/pop.git
+          git remote add origin https://github.com/declick/declick.git
           git push -u origin main
 
 
