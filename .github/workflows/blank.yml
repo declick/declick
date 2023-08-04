@@ -27,5 +27,4 @@ jobs:
           git config --local user.name "declick"
           git add README.md
           git commit -m "Auto update days since registration"
-          git pull --rebase=false
           git push
