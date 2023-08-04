@@ -1,29 +1,29 @@
 name: CI
 
 on:
-  schedule:
-    - cron: "*/30 * * * *"
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
 
 jobs:
-  update-readme:
+  build:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
-      - name: Update README
+      - name: Update Days Since Registration
         run: |
           DATE_INSCRIPTION="2018-02-13"
           DATE_ACTUELLE=$(date -u +"%Y-%m-%d")
           JOURS_ECOULES=$(( ( $(date -ud $DATE_ACTUELLE +'%s') - $(date -ud $DATE_INSCRIPTION +'%s') )/60/60/24 ))
-  
           sed -i "s/Inscrit depuis : le .* jours/Inscrit depuis : le $DATE_INSCRIPTION soit $JOURS_ECOULES jours/" README.md
-
-      - name: commit
-        run: |
-          git config --global user.email et.miracle@hotmail.fr
-          git config --global user.name declick
-          git add -a
-          git commit -m "README update Automation" -a
-          git push origin/main
+          git config --local user.email "et.miracle@hotmail.fr"
+          git config --local user.name "declick"
+          git add README.md
+          git commit -m "Auto update days since registration"
+          git pull --rebase=preserve
+          git push
