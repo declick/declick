@@ -20,10 +20,13 @@ jobs:
   
           sed -i "s/Inscrit depuis : le .* jours/Inscrit depuis : le $DATE_INSCRIPTION soit $JOURS_ECOULES jours/" README.md
 
-      - name: Commit and push changes
-        run: |
-          git config --local user.email "et.miracle@hotmail.fr"
-          git config --local user.name "declick"
-          git add README.md
-          git commit -m "Auto update"
+      - name: Commit and push
+        run: |-
+          git config --global user.email "et.miracle@hotmail.fr"
+          git config --global user.name "declick"
+          git add -A
+          git commit -m "readme"
+          git remote set-url origin ${{ secrets.REPO_URL }}
           git push
+          env:
+            REPO_URL: ${{ secrets.ACTIONS_PAT }}@github.com/declick/declick.git
