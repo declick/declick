@@ -17,13 +17,13 @@ jobs:
 
       - name: Update Days Since Registration
         run: |
-          DATE_INSCRIPTION="2018-02-13"
-          DATE_ACTUELLE=$(date -u +"%Y-%m-%d")
-          JOURS_ECOULES=$(( ( $(date -ud $DATE_ACTUELLE +'%s') - $(date -ud $DATE_INSCRIPTION +'%s') )/60/60/24 ))
-          sed -i "s/Inscrit depuis : le .* jours/Inscrit depuis : le $DATE_INSCRIPTION soit $JOURS_ECOULES jours/" README.md
-          git config --local user.email "et.miracle@hotmail.fr"
-          git config --local user.name "declick"
-          git add README.md
-          git commit -m "Auto update days since registration"
-          git pull --rebase=preserve
-          git push
+         DATE_INSCRIPTION="2018-02-13"
+         DATE_ACTUELLE=$(date -u +"%Y-%m-%d")
+         JOURS_ECOULES=$(( ( $(date -ud $DATE_ACTUELLE +'%s') - $(date -ud $DATE_INSCRIPTION +'%s') )/60/60/24 ))
+         sed -i "s/Inscrit depuis : le .* jours/Inscrit depuis : le $DATE_INSCRIPTION soit $JOURS_ECOULES jours/" README.md
+         git config --local user.email "et.miracle@hotmail.fr"
+         git config --local user.name "declick"
+         git add README.md
+         git commit -m "Auto update days since registration"
+         git pull --rebase=preserve
+         git push
