@@ -1,4 +1,3 @@
-#!/bin/bash
 
 date_reference="2018-02-13"
 date_actuelle=$(date -u "+%Y-%m-%d")
