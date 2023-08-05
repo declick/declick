@@ -17,11 +17,6 @@ jobs:
       - name: Vérifier le dépôt
         uses: actions/checkout@v2
 
-      - name: Utiliser Node.js 16.x
-        uses: actions/setup-node@v2
-        with:
-          node-version: '16.x'
-
       - name: Mettre à jour le nombre de jours
         run: |
           date_reference="2018-02-13"
