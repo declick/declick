@@ -1,6 +1,11 @@
-name: Mise à jour du nombre de jours
+name: README
 
 on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *' # Exécution quotidienne à minuit UTC (ajustez selon votre fuseau horaire)
 
