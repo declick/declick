@@ -16,15 +16,12 @@ jobs:
       - name: Vérifier le dépôt
         uses: actions/checkout@v2
 
-      - name: Copier le fichier generate_readme.sh
-        run: cp generate_readme.sh $GITHUB_WORKSPACE
-
-      - name: Attribuer les permissions d'exécution au script
-        run: chmod +x ./generate_readme.sh
-
-      - name: Générer le contenu du README.md
-        run: ./generate_readme.sh
-        shell: bash
+      - name: Update Days Count
+        run: |
+         today=$(date +"%Y-%m-%d")
+         created=$(date -d "2018-02-13" +"%Y-%m-%d")
+         days=$(( ( $(date -ud "$today" +'%s') - $(date -ud "$created" +'%s') )/60/60/24 ))
+         sed "s/{{CREATION_DATE}}/$created/g; s/{{DAYS_COUNT}}/$days/g" README_TEMPLATE.md > README.md
 
       - name: Commit et push des modifications
         run: |
@@ -33,3 +30,5 @@ jobs:
           git add .
           git commit -m "Mise à jour du nombre de jours" README.md generate_readme.sh
           git push
+
+
