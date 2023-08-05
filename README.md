@@ -54,7 +54,8 @@ Others:<br>
 
 ### ✏️ Inscription
 
-Le projet a été créé le 2018-02-13 soit 1999 jours.
+Le projet a été créé le 2018-02-13 soit {{DAYS_SINCE_CREATION}} jours.
+
 
 
 
