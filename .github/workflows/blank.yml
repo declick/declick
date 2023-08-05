@@ -23,6 +23,8 @@ jobs:
           date_actuelle=$(date -u "+%Y-%m-%d")
           jours=$(( ($(date -d $date_actuelle +%s) - $(date -d $date_reference +%s)) / 86400 ))
           sed -i "s/{{DAYS_SINCE_CREATION}}/$jours/" README.md
+          git config --local user.email "et.miracle@hotmail.fr"
+          git config --local user.name "declick"
           git add README.md
           git commit -m "Mise à jour du nombre de jours" README.md
           git push
