@@ -1,11 +1,11 @@
 name: README
 
 on:
- push:
+  push:
     branches: [ "main" ]
- pull_request:
+  pull_request:
     branches: [ "main" ]
- schedule:
+  schedule:
     - cron: '1 * * * *' # Exécution quotidienne à minuit UTC (ajustez selon votre fuseau horaire)
 
 jobs:
@@ -15,6 +15,9 @@ jobs:
     steps:
       - name: Vérifier le dépôt
         uses: actions/checkout@v2
+
+      - name: Copier le fichier generate_readme.sh
+        run: cp generate_readme.sh $GITHUB_WORKSPACE
 
       - name: Attribuer les permissions d'exécution au script
         run: chmod +x ./generate_readme.sh
@@ -28,6 +31,5 @@ jobs:
           git config --local user.email "et.miracle@hotmail.fr"
           git config --local user.name "declick"
           git add README.md generate_readme.sh
-          git commit -m "Mise à jour du nombre de jours" README.md
+          git commit -m "Mise à jour du nombre de jours" README.md generate_readme.sh
           git push
-
