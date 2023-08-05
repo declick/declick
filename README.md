@@ -3,7 +3,7 @@
 <h1 align="center">Hi <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/>, I'm a FullStack Developer &nbsp;<img src="https://komarev.com/ghpvc/?username=declick&label=Profile%20views&color=0e75b6&style=flat" alt="declick" /></h1> 
 
 
-### 🧑 About 
+### <img src="https://emojis.slackmojis.com/emojis/images/1621024394/39092/cat-roll.gif?1621024394" width="28" /> About 
 
 I learned the Web and the Backend, I try to touch everything. I prefer the web for now.<br>
 Read more about me [My Portfolio](https://declick.github.io/Portfolio/).
@@ -47,9 +47,11 @@ Others:<br>
 
 ### 📈 GitHub Analytics
 
-![](https://github-readme-stats.vercel.app/api?username=declick&theme=dark&hide_border=true&include_all_commits=false&count_private=true)
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=declick&theme=dark&hide_border=true&include_all_commits=false&count_private=true&layout=compact)
-![](https://github-readme-streak-stats.herokuapp.com/?user=declick&theme=dark&hide_border=true)
+<p align="center">
+  <img height="50%" width="auto" src ="https://github-readme-stats.vercel.app/api?username=declick&show_icons=true&count_private=true&theme=darcula&hide_border=true&hide=issues,contribs&bg_color=00000000">
+  <img height="50%" width="auto" src ="https://github-readme-stats.vercel.app/api/top-langs/?username=declick&layout=compact&hide_border=true&theme=darcula&bg_color=00000000&langs_count=6&hide=jupyter%20notebook,tex,css,php&exclude_repo=Pacman-AI">
+  <img src ="https://github-readme-streak-stats.herokuapp.com?user=declick&theme=darcula&hide_border=true&background=FFFFFF00">
+</p>
 <br/>
 
 <HR>
@@ -57,5 +59,3 @@ Others:<br>
 ### ✏️ Inscription
 
 Le projet a été créé le 2018-02-13 soit 1999 jours.
-
-
