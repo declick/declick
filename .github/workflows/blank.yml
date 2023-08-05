@@ -1,13 +1,8 @@
-name: README
+name: Mise à jour du nombre de jours
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-  workflow_dispatch:
   schedule:
-    - cron: '* * * * *' # Exécution quotidienne à minuit UTC (ajustez selon votre fuseau horaire)
+    - cron: '0 0 * * *' # Exécution quotidienne à minuit UTC (ajustez selon votre fuseau horaire)
 
 jobs:
   update-readme:
@@ -23,8 +18,7 @@ jobs:
           date_actuelle=$(date -u "+%Y-%m-%d")
           jours=$(( ($(date -d $date_actuelle +%s) - $(date -d $date_reference +%s)) / 86400 ))
           sed -i "s/Le projet a été créé le .*/Le projet a été créé le $date_reference soit $jours jours./" README.md
-          git config --local user.email "et.miracle@hotmail.fr"
-          git config --local user.name "declick"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           git commit -m "Mise à jour du nombre de jours" README.md
           git push
-
