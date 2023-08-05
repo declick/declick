@@ -19,16 +19,16 @@ jobs:
       - name: Update Days Count
         run: |
          today=$(date +"%Y-%m-%d")
-         created=$(date -d "2018-02-13" +"%Y-%m-%d")
-         days=$(( ( $(date -ud "$today" +'%s') - $(date -ud "$created" +'%s') )/60/60/24 ))
-         sed "s/{{CREATION_DATE}}/$created/g; s/{{DAYS_COUNT}}/$days/g" README_TEMPLATE.md > README.md
+          created=$(date -d "2018-02-13" +"%Y-%m-%d")
+          days=$(( ( $(date -ud "$today" +'%s') - $(date -ud "$created" +'%s') )/60/60/24 ))
+          sed -i "s/Le projet a été créé le [0-9]*-[0-9]*-[0-9]* soit [0-9]* jours./Le projet a été créé le $created soit $days jours./" README_TEMPLATE.md > README.md
 
       - name: Commit et push des modifications
         run: |
           git config --local user.email "et.miracle@hotmail.fr"
           git config --local user.name "declick"
           git add .
-          git commit -m "Mise à jour du nombre de jours" README.md generate_readme.sh
+          git commit -am "Update days count [skip ci]"
           git push
 
 
