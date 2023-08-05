@@ -59,6 +59,6 @@ Others:<br>
 
 ### <img src="https://emojis.slackmojis.com/emojis/images/1621024394/39092/cat-roll.gif?1621024394" width="28" /> Inscription
 
-Le projet a été créé le 2018-02-13 soit {{DAYS_SINCE_CREATION}} jours.
+Le projet a été créé le 2018-02-13 soit 1999 jours.
 
 
