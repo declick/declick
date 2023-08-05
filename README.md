@@ -2,7 +2,6 @@
 
 <h1 align="center">Hi <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/>, I'm a FullStack Developer &nbsp;<img src="https://komarev.com/ghpvc/?username=declick&label=Profile%20views&color=0e75b6&style=flat" alt="declick" /></h1> 
 
-[![MasterHead](https://camo.githubusercontent.com/c1174683d66e0b11b76617e5ef33a6e101feb17ca81aef9df43852a26c8d36f3/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313430302f302a78347251466a666930694b33675331542e676966)](https://github.com/declick)
 
 ### 🧑🏻‍🎓 About 
 
@@ -58,3 +57,4 @@ Others:<br>
 ### ✏️ Inscription
 
 Le projet a été créé le 2018-02-13 soit 1999 jours.
+
