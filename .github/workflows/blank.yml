@@ -6,6 +6,8 @@ on:
   pull_request:
     branches: [main]
   workflow_dispatch:
+  schedule:
+    - cron: "* * * * *"  # À minuit chaque jour (UTC)
 
 jobs:
   build:
@@ -24,6 +26,5 @@ jobs:
 
           git config --local user.email "et.miracle@hotmail.fr"
           git config --local user.name "declick"
-          
-
-
+          git commit -am "Mise à jour du nombre de jours" # Ajoutez un commit pour les mises à jour automatiques
+          git push # Poussez les modifications vers le dépôt
