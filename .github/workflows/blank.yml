@@ -2,7 +2,7 @@ name: README
 
 on:
   schedule:
-    - cron: '* * * * *' # Exécution quotidienne à minuit UTC (ajustez selon votre fuseau horaire)
+    - cron: '0 0 * * *' # Exécution quotidienne à minuit UTC (ajustez selon votre fuseau horaire)
 
 jobs:
   update-readme:
@@ -22,3 +22,4 @@ jobs:
           git config --local user.name "declick"
           git commit -m "Mise à jour du nombre de jours" README.md
           git push
+
