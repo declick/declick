@@ -3,7 +3,7 @@
 <h1 align="center">Hi <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/>, I'm a FullStack Developer &nbsp;<img src="https://komarev.com/ghpvc/?username=declick&label=Profile%20views&color=0e75b6&style=flat" alt="declick" /></h1> 
 
 
-### 🧑🏻‍🎓 About 
+### 🧑 About 
 
 I learned the Web and the Backend, I try to touch everything. I prefer the web for now.<br>
 Read more about me [My Portfolio](https://declick.github.io/Portfolio/).
@@ -45,7 +45,7 @@ Others:<br>
 ![Linux](http://img.shields.io/badge/-Linux-0078D6?style=for-the-badge&logo=linux&logoColor=ffffff)
 <br/>
 
-### ⚙️ GitHub Analytics
+### 📈 GitHub Analytics
 
 ![](https://github-readme-stats.vercel.app/api?username=declick&theme=dark&hide_border=true&include_all_commits=false&count_private=true)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=declick&theme=dark&hide_border=true&include_all_commits=false&count_private=true&layout=compact)
