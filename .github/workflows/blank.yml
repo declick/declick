@@ -31,5 +31,3 @@ jobs:
           git add README.md
           git commit -m "Mise à jour du nombre de jours"
           git push origin main
-        env:
-          ACTIONS_PAT: ${{ secrets.ACTIONS_PAT }}
