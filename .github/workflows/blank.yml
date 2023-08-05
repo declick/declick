@@ -7,7 +7,7 @@ on:
     branches: [main]
   workflow_dispatch:
   schedule:
-    - cron: '1 * * * *' # Exécution quotidienne à minuit UTC (ajustez selon votre fuseau horaire)
+    - cron: '0 0 * * *' # Exécution quotidienne à minuit UTC (ajustez selon votre fuseau horaire)
 
 jobs:
   update-readme:
