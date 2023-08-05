@@ -1,11 +1,6 @@
-name: README
+name: Mise à jour du nombre de jours
 
 on:
-  push:
-    branches: [main]
-  pull_request:
-    branches: [main]
-  workflow_dispatch:
   schedule:
     - cron: '0 0 * * *' # Exécution quotidienne à minuit UTC (ajustez selon votre fuseau horaire)
 
@@ -16,13 +11,18 @@ jobs:
     steps:
       - name: Vérifier le dépôt
         uses: actions/checkout@v2
-          
-      - name: Mettre à jour le nombre de jours
+
+      - name: Utiliser Node.js 16.x
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16.x'
+
+      - name: Générer le contenu du README.md
+        run: ./generate_readme.sh
+        shell: bash
+
+      - name: Commit et push des modifications
         run: |
-          date_reference="2018-02-13"
-          date_actuelle=$(date -u "+%Y-%m-%d")
-          jours=$(( ($(date -d $date_actuelle +%s) - $(date -d $date_reference +%s)) / 86400 ))
-          sed -i "s/{{DAYS_SINCE_CREATION}}/$jours/" README.md
           git config --local user.email "et.miracle@hotmail.fr"
           git config --local user.name "declick"
           git add README.md
