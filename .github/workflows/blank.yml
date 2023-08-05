@@ -1,7 +1,11 @@
 name: Mise à jour du nombre de jours
 
 on:
-  schedule:
+ push:
+    branches: [ "main" ]
+ pull_request:
+    branches: [ "main" ]
+ schedule:
     - cron: '0 0 * * *' # Exécution quotidienne à minuit UTC (ajustez selon votre fuseau horaire)
 
 jobs:
