@@ -29,5 +29,5 @@ jobs:
           git config --local user.email "et.miracle@hotmail.fr"
           git config --local user.name "declick"
           git add .
-          git commit -am "Update days count [skip ci]"
+          git commit -m "Update"
           git push
