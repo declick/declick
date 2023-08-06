@@ -3,7 +3,7 @@
 
 ### 👨‍🎓 About 
 
-I learned the Web and the Backend, I try to touch everything. I prefer the web for now.<br>
+I learned the Web and the Backend, I try to touch everything.<br>
 Read more about me [My Portfolio](https://declick.github.io/Portfolio/).
 
 ### <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="30" /> Connect with me
@@ -57,4 +57,4 @@ Others:<br>
 
 ### <img src="https://emojis.slackmojis.com/emojis/images/1621024394/39092/cat-roll.gif?1621024394" width="28" /> Inscription
 
-Inscrit depuis le 2018-02-13 soit 2000 jours.
+Inscrit depuis le 2018-02-13 soit 0 jours.
