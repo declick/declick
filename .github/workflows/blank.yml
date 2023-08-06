@@ -7,7 +7,7 @@ on:
   pull_request:
     branches: [ "main" ]
   schedule:
-    - cron: '0 1 * * *' # Exécution quotidienne à minuit UTC (ajustez selon votre fuseau horaire)
+    - cron: '0 1 * * *'
 
 jobs:
   update-readme:
