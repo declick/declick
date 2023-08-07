@@ -11,7 +11,7 @@ Read more about me [My Portfolio](https://declick.github.io/Portfolio/).
 <a href="https://www.linkedin.com/in/quentin-minziere-109695246/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
 <br>
 
-<img align="right" alt="Coding" width="400" src="https://cdn.dribbble.com/users/1162077/screenshots/3848914/programmer.gif">
+<img align="right" alt="Coding" width="400" src="https://pa1.aminoapps.com/8043/c07f103afbccfc4ce3caef9d27187a715d7409c2r1-498-498_00.gif">
 
 
 ### <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="40"> Languages and Tools
@@ -54,4 +54,4 @@ Others:<br>
 
 ### <img src="https://emoji.discadia.com/emojis/b5b1f110-74e6-414c-a353-d2c680e9251c.gif" width="100">
 
-Inscrit depuis le 2018-02-13 soit 2001 jours.
+Inscrit depuis le 2018-02-13 soit 2 jours.
