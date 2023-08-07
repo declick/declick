@@ -28,8 +28,10 @@ Frontend :<br>
 <br><br>
 Backend:<br>
 ![Nodejs](https://img.shields.io/badge/-Nodejs-339933?style=for-the-badge&logo=Node.js&logoColor=ffffff)
+![Expressjs](https://img.shields.io/badge/Express%20js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+<br>
 ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=ffffff)
 <br><br>
 Others:<br>
@@ -54,4 +56,4 @@ Others:<br>
 
 ### <img src="https://emoji.discadia.com/emojis/b5b1f110-74e6-414c-a353-d2c680e9251c.gif" width="100">
 
-Inscrit depuis le 2018-02-13 soit 2001 jours.
+Inscrit depuis le 2018-02-13 soit 21 jours.
