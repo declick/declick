@@ -9,20 +9,17 @@ Read more about me [My Portfolio](https://declick.github.io/Portfolio/).
 ### <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="25" /> Connect with me
  
 <a href="https://www.linkedin.com/in/quentin-minziere-109695246/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
-<br>
 
 <img align="right" alt="Coding" width="400" src="https://pa1.aminoapps.com/8043/c07f103afbccfc4ce3caef9d27187a715d7409c2r1-498-498_00.gif">
 
-
 ### <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="40"> Languages and Tools
 
-Languages:<br>
+Frontend :<br>
 ![JavaScript](https://img.shields.io/badge/-JavaScript-%23F7DF1C?style=for-the-badge&logo=javascript&logoColor=000000&labelColor=%23F7DF1C&color=%23FFCE5A)
 ![HTML5](https://img.shields.io/badge/-HTML5-%23E44D27?style=for-the-badge&logo=html5&logoColor=ffffff)
 ![CSS3](https://img.shields.io/badge/-CSS3-%231572B6?style=for-the-badge&logo=css3)
 ![Sass](https://img.shields.io/badge/-Sass-%23CC6699?style=for-the-badge&logo=sass&logoColor=ffffff)
-<br><br>
-Frontend :<br>
+<br>
 ![JQuery](https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=ffffff)
 <br><br>
@@ -34,6 +31,11 @@ Backend:<br>
 <br>
 ![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=ffffff)
 <br><br>
+Cloud Hosting:<br>
+![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)
+![Digital Ocean](https://img.shields.io/badge/Digital_Ocean-0080FF?style=for-the-badge&logo=DigitalOcean&logoColor=white)
+<br><br>
 Others:<br>
 ![Git](https://img.shields.io/badge/-Git-%23F05032?style=for-the-badge&logo=git&logoColor=%23ffffff)
 ![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github)
@@ -44,7 +46,7 @@ Others:<br>
 ![Markdown](https://img.shields.io/badge/Markdown-000000?style=for-the-badge&logo=markdown&logoColor=white)
 ![VS Code](http://img.shields.io/badge/-VS%20Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=ffffff)
 ![Linux](http://img.shields.io/badge/-Linux-0078D6?style=for-the-badge&logo=linux&logoColor=ffffff)
-<br/>
+<br/><br>
 
 ### <img src="https://emojis.slackmojis.com/emojis/images/1621024394/39092/cat-roll.gif?1621024394" width="28" /> GitHub Analytics
 
@@ -57,4 +59,4 @@ Others:<br>
 
 ### <img src="https://emoji.discadia.com/emojis/b5b1f110-74e6-414c-a353-d2c680e9251c.gif" width="100">
 
-Inscrit depuis le 2018-02-13 soit 2005 jours.
+Inscrit depuis le 2018-02-13 soit 205 jours.
