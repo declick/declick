@@ -49,4 +49,4 @@ Others:<br>
 </p>
 
 ### <img src="https://emoji.discadia.com/emojis/b5b1f110-74e6-414c-a353-d2c680e9251c.gif" width="100">
-Inscrit depuis le 2018-02-13 soit 2009 jours.
+Inscrit depuis le 2018-02-13 soit 20 jours.
