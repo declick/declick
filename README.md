@@ -1,9 +1,11 @@
-<h1 align="center"><samp>Hi <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/>, I'm a FullStack Developer</samp>  &nbsp;<img src="https://komarev.com/ghpvc/?username=declick&label=Profile%20views&color=0e75b6&style=flat" alt="declick" /> </h1>
+## <img src="https://emoji.discadia.com/emojis/b5b1f110-74e6-414c-a353-d2c680e9251c.gif" width="100"> Welcome , I'm a FullStack Developer</samp>  &nbsp;<img src="https://komarev.com/ghpvc/?username=declick&label=Profile%20views&color=0e75b6&style=flat" alt="declick" /> 
 
 ### <img src="https://emoji.discadia.com/emojis/2a9424f9-f4ac-4b0c-865b-f02551da97b6.GIF" width="25"> About
 
-I learned the Web and the Backend, I try to touch everything.<br>
-Read more about me --> [My Portfolio](https://declick.github.io/Portfolio/)
+Greetings, traveler! 👋 I'm a FullStack Developer proficient in both frontend and backend, but my curiosity knows no bounds—and I strive to explore various domains.
+Always up for a coding challenge, I'm dedicated to continuous learning and pushing the boundaries of what I can achieve.
+<br>
+- Feel free to explore my [portfolio](https://declick.github.io/Portfolio/) to gain insight into my projects and skills.
 
 ### <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="25" /> Connect with me
 
@@ -50,6 +52,6 @@ Others:<br>
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=declick&theme=darcula&hide_border=true&background=FFFFFF00" alt="Streak">
 </p>
 
-### <img src="https://emoji.discadia.com/emojis/b5b1f110-74e6-414c-a353-d2c680e9251c.gif" width="100">
+### <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTJxb2cyZWVva3JtN3IwZm5sdXBoMDZ0YjhtNHU5OHN5MnFwMDJkNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/4QZK21zlzVIyc/giphy.gif" width="50" />
 
-Inscrit depuis le 2018-02-13 soit 2010 jours.
+Registered since 2018-02-13 i.e. 201 days.
