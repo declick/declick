@@ -1,13 +1,16 @@
 <h1 align="center"><samp>Hi <img src="https://emojis.slackmojis.com/emojis/images/1531849430/4246/blob-sunglasses.gif?1531849430" width="30"/>, I'm a FullStack Developer</samp>  &nbsp;<img src="https://komarev.com/ghpvc/?username=declick&label=Profile%20views&color=0e75b6&style=flat" alt="declick" /> </h1>
 
 ### <img src="https://emoji.discadia.com/emojis/2a9424f9-f4ac-4b0c-865b-f02551da97b6.GIF" width="25"> About
+
 I learned the Web and the Backend, I try to touch everything.<br>
 Read more about me --> [My Portfolio](https://declick.github.io/Portfolio/)
 
 ### <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="25" /> Connect with me
+
 <a href="https://www.linkedin.com/in/quentin-minziere-109695246/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
 
 ### <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="40"> Languages and Tools
+
 <img align="right" alt="Coding" width="400" src="https://pa1.aminoapps.com/8043/c07f103afbccfc4ce3caef9d27187a715d7409c2r1-498-498_00.gif">
 
 Frontend :<br>
@@ -48,4 +51,5 @@ Others:<br>
 </p>
 
 ### <img src="https://emoji.discadia.com/emojis/b5b1f110-74e6-414c-a353-d2c680e9251c.gif" width="100">
-Inscrit depuis le 2018-02-13 soit 2010 jours.
+
+Inscrit depuis le 2018-02-13 soit 20 jours.
