@@ -1,4 +1,4 @@
-## <img src="https://emoji.discadia.com/emojis/b5b1f110-74e6-414c-a353-d2c680e9251c.gif" width="100"> Welcome , I'm a FullStack Developer</samp>  &nbsp;<img src="https://komarev.com/ghpvc/?username=declick&label=Profile%20views&color=0e75b6&style=flat" alt="declick" /> 
+## <img src="https://emoji.discadia.com/emojis/b5b1f110-74e6-414c-a353-d2c680e9251c.gif" width="100"> Welcome , I'm a FullStack Developer</samp>
 
 ### <img src="https://emoji.discadia.com/emojis/2a9424f9-f4ac-4b0c-865b-f02551da97b6.GIF" width="25"> About
 
@@ -52,6 +52,7 @@ Others:<br>
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=declick&theme=darcula&hide_border=true&background=FFFFFF00" alt="Streak">
 </p>
 
-### <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTJxb2cyZWVva3JtN3IwZm5sdXBoMDZ0YjhtNHU5OHN5MnFwMDJkNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/4QZK21zlzVIyc/giphy.gif" width="50" />
+### <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTJxb2cyZWVva3JtN3IwZm5sdXBoMDZ0YjhtNHU5OHN5MnFwMDJkNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/4QZK21zlzVIyc/giphy.gif" width="50" /> <img src="https://komarev.com/ghpvc/?username=declick&label=Profile%20views&color=0e75b6&style=flat" alt="declick" /> 
 
-Registered since 2018-02-13 i.e. 2024 days.
+Registered since 2018-02-13 i.e. 224 days.
+
