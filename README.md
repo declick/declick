@@ -9,7 +9,7 @@ Always up for a coding challenge, I'm dedicated to continuous learning and pushi
 
 ### <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="25" /> Connect with me
 
-<a href="https://www.linkedin.com/in/quentin-minziere-109695246/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
+<a href="https://www.linkedin.com/in/quentin-minziere" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
 
 ### <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="40"> Languages and Tools
 
@@ -54,5 +54,5 @@ Others:<br>
 
 ### <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTJxb2cyZWVva3JtN3IwZm5sdXBoMDZ0YjhtNHU5OHN5MnFwMDJkNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/4QZK21zlzVIyc/giphy.gif" width="50" /> <img src="https://komarev.com/ghpvc/?username=declick&label=Profile%20views&color=0e75b6&style=flat" alt="declick" /> 
 
-Registered since 2018-02-13 i.e. 2048 days.
+Registered since 2018-02-13 i.e. 20 days.
 
