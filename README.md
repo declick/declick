@@ -5,7 +5,7 @@
 Greetings, traveler! 👋 I'm a FullStack Developer proficient in both frontend and backend, but my curiosity knows no bounds—and I strive to explore various domains.
 Always up for a coding challenge, I'm dedicated to continuous learning and pushing the boundaries of what I can achieve.
 <br>
-- Feel free to explore my [portfolio](https://github.com/declick/Conversational-Portfolio) to gain insight into my projects and skills.
+- Feel free to explore my [portfolio](https://chatboter.netlify.app/) to gain insight into my projects and skills.
 ### <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="25" /> Connect with me
 
 <a href="https://www.linkedin.com/in/quentin-minziere" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
@@ -52,5 +52,5 @@ Others:<br>
 
 ### <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTJxb2cyZWVva3JtN3IwZm5sdXBoMDZ0YjhtNHU5OHN5MnFwMDJkNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/4QZK21zlzVIyc/giphy.gif" width="50" /> <img src="https://komarev.com/ghpvc/?username=declick&label=Profile%20views&color=0e75b6&style=flat" alt="declick" /> 
 
-Registered since 2018-02-13 i.e. 2107 days.
+Registered since 2018-02-13 i.e. 21 days.
 
