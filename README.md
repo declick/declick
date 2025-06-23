@@ -5,7 +5,7 @@
 Greetings, traveler! 👋 I'm a FullStack Developer proficient in both frontend and backend, but my curiosity knows no bounds—and I strive to explore various domains.
 Always up for a coding challenge, I'm dedicated to continuous learning and pushing the boundaries of what I can achieve.
 <br>
-- Feel free to explore my [portfolio](https://chatboter.netlify.app/) to gain insight into my projects and skills.
+- Feel free to explore my [portfolio](https://quentinminziere.netlify.app/) to gain insight into my projects and skills.
 ### <img src="https://emojis.slackmojis.com/emojis/images/1588315024/8823/hyperkitty.gif?1588315024" width="25" /> Connect with me
 
 <a href="https://www.linkedin.com/in/quentin-minziere" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
